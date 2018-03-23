@@ -1,0 +1,18 @@
+{
+  "extends": "react-app",
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": false
+      }
+    ]
+  },
+  "globals": {
+    "shallow": true,
+    "mount": true,
+    "render": true
+  }
+}

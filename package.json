@@ -1,0 +1,46 @@
+{
+  "name": "react-redux-example",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "@cliener/react-webcam": "^0.3.2",
+    "exif-js": "^2.3.0",
+    "exif-parser": "^0.1.12",
+    "install": "^0.11.0",
+    "moment": "^2.21.0",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "react-scripts": "1.1.1 ",
+    "react-webcam": "^0.2.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,json,css}": [
+      "prettier --single-quote --no-semi --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-enzyme": "beta",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint-plugin-prettier": "^2.2.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.10.2",
+    "react-test-renderer": "^16.2.0",
+    "sinon": "^4.4.1"
+  }
+}
